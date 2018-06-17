@@ -15,6 +15,7 @@ me to obtain the balance in dollars of outstanding bonds in the deal. I take tha
 If the deal previously had a balance and now its balance is equal to 0 then the deal has been called. I need to do this multiple
 times per day and also calculate what percentage of the ~6k deals have been updated with the latest data.
 
+
 ### To-be Process Description
 Create a python script that can be run on-demand and outputs the deals that have been called. It can be executable from command line
 or by opening up in pycharm and running the program. It should print the list of deals to a csv file and also contain
