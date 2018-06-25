@@ -357,4 +357,12 @@ with open(deal_output_path, "w+") as csv_file:
     writer.writerows(all_data)
 
 
+def test_connection():
+    load_dotenv()
+    api_key = os.environ.get("ACCESS_KEYCODE")
+    if len(api_key) > 1:
+        return "Success"
+    else:
+        return "Fail"
+
 
