@@ -8,4 +8,4 @@ An API key from Intex is needed for this to run. Contact APS helpdesk to obtain 
 Place each file 'deal_list', 'deal_output' and 'json_deal_dump' in the directory containing the program.
 
 ## Running the Program
-To run this program, completing the above steps, open the program in pycharm CE and press Run. The output will be written to the 'deal_output' file, which can be open in excel.
+To run this program, after completing the above steps, open the program in pycharm CE and press Run. The output will be written to the 'deal_output' file, which can be open in excel.
